@@ -6,7 +6,7 @@ This repository is designed to help developers learn, build, and optimize Shopif
 
 ---
 
-## 🚀 What You'll Learn
+##  What You'll Learn
 
 * Shopify Theme Architecture
 * Shopify Liquid Fundamentals
@@ -96,7 +96,7 @@ shopify-theme-development-with-ai/
 
 ---
 
-## 📚 Contents
+##  Contents
 
 ### Course Outline
 
@@ -114,13 +114,10 @@ Practical examples, exercises, and project files.
 
 Useful tools, documentation, articles, and references.
 
-### Video Tutorials
-
-Video lessons and recordings (Coming Soon).
 
 ---
 
-## 🛠 Technologies Covered
+##  Technologies Covered
 
 * Shopify
 * Shopify CLI
@@ -135,7 +132,7 @@ Video lessons and recordings (Coming Soon).
 
 ---
 
-## 🎯 Who Is This Course For?
+##  Who Is This Course For?
 
 * Beginners learning Shopify development
 * Frontend developers
@@ -146,7 +143,7 @@ Video lessons and recordings (Coming Soon).
 
 ---
 
-## 🤖 AI Tools Used
+##  AI Tools Used
 
 * ChatGPT
 * GitHub Copilot
@@ -157,7 +154,7 @@ Video lessons and recordings (Coming Soon).
 
 ---
 
-## 📈 Learning Approach
+##  Learning Approach
 
 This repository follows a practical, project-based learning approach:
 
@@ -170,18 +167,17 @@ This repository follows a practical, project-based learning approach:
 
 ---
 
-## 🔥 Coming Soon
+##  Coming Soon
 
 * Complete Course Outline
 * Detailed Class Notes
 * Source Code Examples
 * Real-World Projects
-* Video Tutorials
 * Assignments & Exercises
 
 ---
 
-## ⭐ Support
+##  Support
 
 If you find this repository useful, please consider giving it a star.
 
@@ -189,6 +185,6 @@ Your support helps improve the course and create more educational content.
 
 ---
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License.
