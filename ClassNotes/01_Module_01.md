@@ -48,11 +48,11 @@
 * **Business Email:** projuktiplus@gmail.com
 * **Job Title:** Full-Stack Web Developer / Freelancer
 * **Developer Name:** Md. Nayemur Rahman
-* **Developer Email:** nayemku@gmail.com
+* **Developer Email:** nayem..@gmail.com
 * **Address:** Khulna, Bangladesh
 * **City:** Khulna
 * **Postal/Zip Code:** 9000
-* **Phone Number:** 01955800853
+* **Phone Number:** 01955xxxxxx
 * **Social Links (LinkedIn, Facebook, Twitter):** এগুলো সম্পূর্ণ ঐচ্ছিক (Optional), ভিডিওর সময় এগুলো ফাঁকা রেখেই এগিয়ে যেতে পারেন।
 
 সবশেষে **Shopify Partner Agreement** বক্সে টিক দিয়ে **"Create partner organization"** বাটনে ক্লিক করলেই আপনার পার্টনার ড্যাশবোর্ড প্রস্তুত হয়ে যাবে।
