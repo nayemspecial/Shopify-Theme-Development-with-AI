@@ -4,7 +4,7 @@
 
 **ইনস্ট্রাক্টর:** Md. Nayemur Rahman
 
-**প্রতিষ্ঠান:** ProjuktiPlus
+**প্রতিষ্ঠান:** ProjuktiPlus Academy
 
 ---
 
