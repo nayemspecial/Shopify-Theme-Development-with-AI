@@ -1,190 +1,131 @@
 # Shopify Theme Development with AI
 
-A complete learning repository for mastering Shopify Theme Development using modern AI-powered workflows.
+**কোর্স গাইড ও ইন-ডিটেইল মডিউল (ক্লাস নোটস)**
 
-This repository is designed to help developers learn, build, and optimize Shopify themes efficiently using Shopify Liquid, Online Store 2.0, Git workflows, and AI tools such as ChatGPT, GitHub Copilot, Claude, Cursor, and more.
+*   **ইনস্ট্রাক্টর:** Md. Nayemur Rahman
+*   **প্লাটফর্ম:** ProjuktiPlus Academy
 
----
+#### মডিউল ০১: শপিফাই ইকোসিস্টেম এবং মডার্ন থিম স্ট্যান্ডার্ড [ক্লাস নোট](./modules/module-01.md)
+* শপিফাই অনলাইন স্টোর ২.০ এবং লেটেস্ট আর্কিটেকচার ইভোলিউশন।
+* পার্টনার অ্যাকাউন্ট সেটআপ এবং ডেভেলপমেন্ট স্টোর তৈরি।
+* টেকনিক্যাল ডকুমেন্টেশন ব্যবহারের নিয়ম এবং এআই অ্যাসিস্ট্যান্টকে শপিফাই এনভায়রনমেন্টের কনটেক্সট দেওয়া।
 
-##  What You'll Learn
+#### মডিউল ০২: নেক্সট-জেনারেশন ডেভেলপমেন্ট এনভায়রনমেন্ট সেটআপ [ক্লাস নোট](./modules/module-02.md)
+* Cursor এবং Windsurf কোড এডিটর কনফিগারেশন।
+* শপিফাই CLI ইন্সটলেশন এবং টার্মিনাল ওয়ার্কফ্লো সেটআপ।
+* কোড এডিটরের এআই ফিচারের মাধ্যমে গিটহাব (GitHub) রিপোজিটরি ও ভার্সন কন্ট্রোল ম্যানেজমেন্ট।
 
-* Shopify Theme Architecture
-* Shopify Liquid Fundamentals
-* Online Store 2.0
-* JSON Templates
-* Sections & Blocks
-* Metafields & Metaobjects
-* Theme Customization
-* Shopify App Integration
-* Performance Optimization
-* Responsive Design
-* Version Control with Git & GitHub
-* AI-Assisted Development Workflows
-* Real-World Shopify Projects
+#### মডিউল ০৩: Shopify Liquid Engine এবং JSON স্কিমা ফান্ডামেন্টালস [ক্লাস নোট](./modules/module-03.md)
+* লিকুইড অবজেক্ট, ট্যাগ এবং ফিল্টারের কাজের ধারা ও এক্সিকিউশন লাইফসাইকেল।
+* JSON স্কিমা স্ট্রাকচার গভীরভাবে বোঝা (Sections এবং Blocks)।
+* জটিল লিকুইড লজিক জেনারেশন ও স্ট্রাকচারাল প্রম্পটিং টেকনিক।
 
----
-```text
-shopify-theme-development-with-ai/
-│
-├── README.md
-├── LICENSE
-├── .gitignore
-│
-├── 01-course-outline/
-│   ├── README.md
-│   ├── module-01.md
-│   ├── module-02.md
-│   ├── module-03.md
-│   └── ...
-│
-├── 02-class-notes/
-│   ├── README.md
-│   ├── lesson-01/
-│   │   └── notes.md
-│   ├── lesson-02/
-│   │   └── notes.md
-│   └── ...
-│
-├── 03-source-code/
-│   ├── 01-liquid-basics/
-│   ├── 02-sections-and-blocks/
-│   ├── 03-json-templates/
-│   ├── 04-metafields/
-│   ├── 05-theme-customization/
-│   ├── 06-app-integration/
-│   ├── 07-performance-optimization/
-│   └── ...
-│
-├── 04-projects/
-│   ├── project-01-store-homepage/
-│   ├── project-02-product-page/
-│   ├── project-03-custom-section/
-│   └── final-theme-project/
-│
-├── 05-assignments/
-│   ├── assignment-01.md
-│   ├── assignment-02.md
-│   └── ...
-│
-├── 06-resources/
-│   ├── useful-links.md
-│   ├── shopify-docs.md
-│   ├── liquid-reference.md
-│   ├── ai-prompts.md
-│   └── tools.md
-│
-├── 07-cheatsheets/
-│   ├── liquid-cheatsheet.md
-│   ├── git-cheatsheet.md
-│   ├── shopify-cli-cheatsheet.md
-│   └── ai-workflow-cheatsheet.md
-│
-├── 08-video-tutorials/
-│   ├── README.md
-│   └── video-links.md
-│
-├── 09-assets/
-│   ├── images/
-│   ├── diagrams/
-│   └── screenshots/
-│
-└── 10-community/
-    ├── faq.md
-    ├── discussion-topics.md
-    └── contribution-guide.md
-```
+#### মডিউল ০৪: শপিফাই থিম ডিরেক্টরি আর্কিটেকচার ও ফাইল স্ট্রাকচার [ক্লাস নোট](./modules/module-04.md)
+* `layout`, `templates`, `sections`, `blocks`, `snippets`, `assets`, `locales` ফোল্ডারের ভূমিকা।
+* একটি ব্ল্যাঙ্ক ডিরেক্টরি থেকে একদম স্ক্র্যাচ (Scratch) ফাইল স্ট্রাকচার তৈরি।
+* থিম আর্কিটেকচার ডিজাইন এবং ফাইল ডিপেন্ডেন্সি অ্যানালাইসিস।
 
----
+#### মডিউল ০৫: Tailwind CSS v4 এবং ফ্রন্টএন্ড ইউআই কনফিগারেশন [ক্লাস নোট](./modules/module-05.md)
+* শপিফাই থিমে মডার্ন Tailwind CSS v4 আর্কিটেকচার সেটআপ।
+* বিল্ড টুলস ও অ্যাসেট অপ্টিমাইজেশান প্রসেস।
+* রেসপন্সিভ এবং ক্লিন ইউজার ইন্টারফেস ডিজাইন স্পিড আপ করার কৌশল।
 
-##  Contents
+#### মডিউল ০৬: ডাইনামিক শপিফাই সেকশন (Sections) ইঞ্জিনিয়ারিং [ক্লাস নোট](./modules/module-06.md)
+* কাস্টম হিরো ব্যানার এবং স্লাইডার সেকশন আর্কিটেকচার তৈরি。
+* স্কিমা সেটিংস (Text, Image picker, Color, URL input) ডিফাইন ও ম্যানেজমেন্ট।
+* প্রোপার স্কিমা ডাটা ভ্যালিডেশন তৈরি ও বাগ প্রিভেনশন।
 
-### Course Outline
+#### মডিউল ০৭: রিইউজেবল থিম ব্লকস (Theme Blocks) আর্কিটেকচার [ক্লাস নোট](./modules/module-07.md)
+* সেকশনের ভেতর ডাইনামিক ব্লকস তৈরি এবং সর্টিং মেকানিজম।
+* ব্লক সেটিংসের মাধ্যমে কন্টেন্ট কন্ট্রোল ও ফ্লেক্সিবিলিটি নিশ্চিত করা।
+* মডুলার কোড ব্লক জেনারেশন এবং কন্টেন্ট-বেসড থিম আর্কিটেকচার।
 
-Complete course roadmap and learning path.
+#### মডিউল ০৮: অ্যাডভান্সড লিকুইড লজিক এবং গ্লোবাল অবজেক্টস [ক্লাস নোট](./modules/module-08.md)
+* `routes`, `shop`, `cart`, `customer` এবং `settings` গ্লোবাল অবজেক্টের ব্যবহার।
+* কন্ডিশনাল লজিক, কালেকশন ফিল্টারিং লুপ এবং ডাটা রেন্ডারিং।
+* জটিল লুপ স্ট্রাকচারে পারফরম্যান্স বটলনেক আইডেন্টিফিকেশন এবং অপ্টিমাইজেশন。
 
-### Class Notes
+#### মডিউল ০৯: কালেকশন এবং প্রোডাক্ট গ্রিড পেজ আর্কিটেকচার [ক্লাস নোট](./modules/module-09.md)
+* প্রোডাক্ট লিস্টিং, গ্রিড লেআউট এবং পাজিনেশন (Pagination) লজিক তৈরি।
+* কাস্টম ব্যাজ (যেমন: Sale, Sold Out) এবং মেটাডাটা ডাইনামিক ডিসপ্লে।
+* কাস্টম ফিল্টারিং ইউআই (Filtering UI) জেনারেশন ও ডেটা ফিল্টারিং।
 
-Lecture notes, explanations, and references.
+#### মডিউল ১০: প্রোডাক্ট ডিটেইলস পেজ (PDP) এবং কোর লজিক হ্যান্ডলিং [ক্লাস নোট](./modules/module-10.md)
+*  ভ্যারিয়েন্ট সিলেক্টর, ইমেজ গ্যালারি এবং কোয়ান্টিটি ইনপুট হ্যান্ডলিং।
+* ডাইনামিক "Add to Cart" এবং "Buy Now" বাটন লজিক ইমপ্লিমেন্টেশন।
+* ভ্যারিয়েন্ট চেঞ্জিং ইভেন্ট অপ্টিমাইজেশন এবং ডাইনামিক প্রাইস আপডেট।
 
-### Source Code
+#### মডিউল ১১: শপিফাই মেটাফিল্ডস (Metafields) এবং কাস্টম মেটাঅবজেক্টস [ক্লাস নোট](./modules/module-11.md)
+* কাস্টম ডেটা আর্কিটেকচার ডিজাইনিং ও শপিফাই অ্যাডমিন কনফিগারেশন।
+* থিমে মেটাফিল্ড ও মেটাঅবজেক্টের ডেটা ডাইনামিক্যালি রেন্ডার করা।
+* মেটাঅবজেক্ট লুপ, রিলেশনশিপ হ্যান্ডলিং এবং রিলেশনাল ডাটা ডিসপ্লে।
 
-Practical examples, exercises, and project files.
+#### মডিউল ১২: Ajax API এবং ডাইনামিক কার্ট (Cart Drawer) ইঞ্জিনিয়ারিং [ক্লাস নোট](./modules/module-12.md)
+* শপিফাই Ajax API ব্যবহার করে পেজ রিফ্রেশ ছাড়া কার্টে প্রোডাক্ট অ্যাড করা।
+* সাইড-কার্ট বা কার্ট ড্রয়ারের (Cart Drawer) জন্য ফ্রন্টএন্ড ইন্টারফেস ডিজাইন।
+* জাভাস্ক্রিপ্ট ফেচ রিকোয়েস্ট (Fetch Request) এবং স্টেট ম্যানেজমেন্ট কোড অপ্টিমাইজেশন।
 
-### Resources
+#### মডিউল ১৩: কাস্টমার অ্যাকাউন্ট পোর্টাল ও সিকিউর ফর্ম কাস্টমাইজেশন [ক্লাস নোট](./modules/module-13.md)
+* কাস্টমার রেজিস্ট্রেশন, লগইন এবং অর্ডার হিস্ট্রি পেজ আর্কিটেকচার।
+* কাস্টম অ্যাড্রেস ম্যানেজমেন্ট ফর্ম ডেভেলপমেন্ট।
+* ক্লায়েন্ট-সাইড ফর্ম ভ্যালিডেশন এবং সিকিউরিটি চেক লজিক ইমপ্লিমেন্টেশন।
 
-Useful tools, documentation, articles, and references.
+#### মডিউল ১৪: শপিফাই কোর সার্চ এবং প্রেডিক্টিভ লাইভ সার্চ [ক্লাস নোট](./modules/module-14.md)
+* 标准 সার্চ রেজাল্ট পেজ ডেভেলপমেন্ট ও আর্কিটেকচার।
+* Ajax প্রেডিক্টিভ সার্চ (Predictive Live Search) এর জন্য ফ্রন্টএন্ড ইন্টারফেস তৈরি।
+* সার্চ কোয়েরি পারফরম্যান্স অপ্টিমাইজেশন।
 
+#### মডিউল ১৫: থিম লোকালইজেশন (Internationalization) এবং গ্লোবাল মার্কেটস [ক্লাস নোট](./modules/module-15.md)
+* `locales` ফাইলের মাধ্যমে বহুভাষিক (Multi-language) থিম আর্কিটেকচার প্রস্তুত করা।
+* শপিফাই মার্কেটস (Shopify Markets) অনুযায়ী ডাইনামিক কারেন্সি সুইচার ইন্টিগ্রেশন।
+* ল্যাঙ্গুয়েজ কী (Key) জেনারেশন এবং ট্রান্সলেশন স্কিমা ম্যাপিং।
 
----
+#### মডিউল ১৬: গ্লোবাল থিম সেটিংস এবং স্টাইল ডিরেক্টরি কনফিগারেশন [ক্লাস নোট](./modules/module-16.md)
+* `settings_schema.json` ফাইলের মাধ্যমে গ্লোবাল টাইপোগ্রাফি, কালার প্যালেট এবং সোশাল media সেটিংস তৈরি।
+* থিম সেটিংসের ডেটাকে সিএসএস কাস্টম প্রোপার্টিজে (CSS Variables) রূপান্তর।
+* স্ট্যান্ডার্ড ও রিলায়েবল গ্লোবাল কনফিগারেশন ফাইল আর্কিটেকচার ডিজাইন।
 
-##  Technologies Covered
+#### মডিউল ১৭: থিম পারফরম্যান্স অপ্টিমাইজেশান এবং কোর ওয়েব ভাইটালস [ক্লাস নোট](./modules/module-17.md)
+* ইমেজ অপ্টিমাইজেশন (srcset), অলস লোডিং (Lazyloading) এবং স্ক্রিপ্ট ডিফার (Defer) মেকানিজম।
+* শপিফাই নেটিভ সিএসএস ও জেএস ফাইল অপ্টিমাইজেশন ও মিনিকরণ।
+* লাইটহাউস (Lighthouse) স্কোর ও কোর ওয়েব ভাইটালস অ্যানালাইসিস করে বটলনেক ফিক্স করা।
 
-* Shopify
-* Shopify CLI
-* Shopify Liquid
-* HTML5
-* CSS3
-* JavaScript
-* JSON
-* Git
-* GitHub
-* AI Development Tools
+#### মডিউল ১৮: অ্যাডভান্সড কোড রিফ্যাক্টরিং এবং লজিক্যাল ডিবাগিং স্ট্র্যাটেজি [ক্লাস নোট](./modules/module-18.md)
+* থিম ইন্সপেক্ট করা এবং কমন লিকুইড/জাভাস্ক্রিপ্ট রানটাইম এরর আইডেন্টিফাই করা।
+* এআই এসিস্টেড রিফ্যাক্টর ফিচারের মাধ্যমে ক্লিন এবং মেইনটেইনেবল কোড নিশ্চিত করা।
+* "ডিবাগিং মাইন্ডসেট" ব্যবহার করে জটিল লজিক্যাল এরর সমাধান করার কৌশল।
 
----
+#### মডিউল ১৯: থিম অ্যাপ এক্সটেনশন (Theme App Extensions) আর্কিটেকচার [ক্লাস নোট](./modules/module-19.md)
+* অ্যাপ ব্লকের (App Blocks) সাথে থিমের সামঞ্জস্যতা ও আর্কিটেকচার নিশ্চিত করা।
+* কাস্টম অ্যাপ স্ক্রিপ্ট এবং থিম কন্টেন্ট পজিশনিং হ্যান্ডলিং।
+* থিম ডিপেন্ডেন্সি কমিয়ে অ্যাপ ব্লক স্কিমা কনফিগারেশন সেটআপ।
 
-##  Who Is This Course For?
+#### মডিউল ২০: ওয়েব অ্যাক্সেসিবিলিটি (A11y) এবং ডাইনামিক এসইও (SEO) [ক্লাস নোট](./modules/module-20.md)
+* থিমে ARIA অ্যাট্রিবিউট এবং প্রোপার সেম্যান্টিক এইচটিএমএল (Semantic HTML) নিশ্চিত করা।
+* ডায়নামিক মেটা ট্যাগ, ওপেন গ্রাফ (OG) ট্যাগ এবং স্ট্রাকচার্ড ডাটা (JSON-LD) ইন্টিগ্রেশন।
+* এসইও ফ্রেন্ডলি সিমেন্টিক মার্কআপ জেনারেশন গাইডলাইন।
 
-* Beginners learning Shopify development
-* Frontend developers
-* Freelancers
-* Shopify developers
-* Agency teams
-* E-commerce professionals
+#### মডিউল ২১: শপিফাই থিম লিন্টিং এবং কোড কোয়ালিটি স্ট্যান্ডার্ডস [ক্লাস নোট](./modules/module-21.md)
+* Shopify Theme Check টুল ব্যবহার করে কোডের স্ট্যান্ডার্ড এবং গভর্ন্যান্স যাচাই।
+* বেস্ট প্র্যাকটিস ভায়োলেশন এবং ডেপ্রিকেটেড (Deprecated) লিকুইড কোড রিমুভ করা。
+* লিন্টার এরর (Linter Errors) অ্যানালাইসিস ও অটো-কারেকশন মেকানিজম।
 
----
+#### মডিউল ২২: অফিশিয়াল 'Dawn' থিম অ্যানালাইসিস এবং এক্সটেনশন পলিসি [ক্লাস নোট](./modules/module-22.md)
+* শপিফাইয়ের অফিশিয়াল স্ট্যান্ডার্ড থিম 'Dawn'-এর ওপেন সোর্স আর্কিটেকচার বিশ্লেষণ।
+* ডন থিমের এক্সিস্টিং স্ট্রাকচারে নতুন কাস্টম ফিচার ইঞ্জিনিয়ারিং করার প্রসেস。
+* থিম ডুপ্লিকেশন, গিট ব্রাঞ্চিং স্ট্র্যাটেজি এবং কাস্টমাইজেশন ম্যানেজমেন্ট পলিসি。
 
-##  AI Tools Used
+#### মডিউল ২৩: স্মার্ট প্রম্পটিং এ কোড কনটেক্সট বিল্ডিং প্র্যাকটিস [ক্লাস নোট](./modules/module-23.md)
+* থিম ডেভেলপমেন্টের সময় প্রফেশনাল ও রেডি-টু-ইউজ প্রম্পট স্ট্রাকচার ডিজাইন।
+* জটিল আর্কিটেকচারাল প্রবলেমের জন্য এআই মডেলকে সঠিক কোড কনটেক্সট দেওয়ার নিয়ম।
+* এআই টুলের ওপর নির্ভরশীল না হয়ে কোডের ওভারঅল আর্কিটেকচারাল কন্ট্রোল নিজের হাতে রাখার কৌশল。
 
-* ChatGPT
-* GitHub Copilot
-* Claude
-* Cursor
-* Gemini
-* Other AI productivity tools
+#### মডিউল ২৪: প্রোডাকশন ডেপ্লয়মেন্ট, গিট ওয়ার্কф্লো এবং ক্লায়েন্ট হ্যান্ডওভার [ক্লাস নোট](./modules/module-24.md)
+* লোকাল ডেভেলপমেন্ট এনভায়রনমেন্ট থেকে লাইভ স্টোরে থিম পুশ ও প্রোডাকশন পাবলিশিং।
+* আর্টফ্যাক্ট ও জিপ ফাইল এক্সপোর্ট এবং থিম প্রিভিউ লিঙ্ক জেনারেশন ওয়ার্কф্লো।
+* কাস্টমাইজেশন গাইডলাইন বুকলেট এবং টেকনিক্যাল ক্লায়েন্ট ডকুমেন্টেশন রাইটিং।
 
----
-
-##  Learning Approach
-
-This repository follows a practical, project-based learning approach:
-
-1. Learn concepts
-2. Build components
-3. Develop complete themes
-4. Optimize performance
-5. Apply AI-assisted workflows
-6. Deploy production-ready solutions
-
----
-
-##  Coming Soon
-
-* Complete Course Outline
-* Detailed Class Notes
-* Source Code Examples
-* Real-World Projects
-* Assignments & Exercises
-
----
-
-##  Support
-
-If you find this repository useful, please consider giving it a star.
-
-Your support helps improve the course and create more educational content.
-
----
-
-##  License
-
-This project is licensed under the MIT License.
+#### মডিউল ২৫: রিয়েল-ওয়ার্ল্ড প্রজেক্ট অডিট এবং ফাইনাল রিভিউ [ক্লাস নোট](./modules/module-25.md)
+* সম্পূর্ণ কোর্স জুড়ে স্ক্র্যাচ থেকে তৈরি করা কাস্টম থিমটির ফাইনাল ইঞ্জিনিয়ারিং অডিট।
+* একটি রিয়েল-ওয়ার্ল্ড প্রোডাকশন ই-কমার্স স্টোরে থিমটির লাইভ স্ট্রেস টেস্টিং।
+* কোর্স সমাপনী নির্দেশনা এবং ফিউচার ডেভেলপমেন্ট রোডম্যাপ।
